@@ -15,15 +15,15 @@ _G.twilight_colors = {
   bg5         = { "#60678A", 8 },
   fg          = { "#DFE2F0", 7 },
   red         = { "#E6787A", 1 },
-  orange      = { "#E6A681", 11 },
-  yellow      = { "#DDC68E", 3 },
-  green       = { "#B7CEA4", 2 },
-  aqua        = { "#93C7A0", 6 },
+  orange      = { "#E6AF8F", 11 },
+  yellow      = { "#DDCCA3", 3 },
+  green       = { "#BECEB1", 2 },
+  aqua        = { "#A5C7AE", 6 },
   blue        = { "#97BAC7", 4 },
   purple      = { "#CEA3D6", 5 },
   grey0       = { "#CAD0E9", 8 },
-  grey1       = { "#B3BCE1", 15 },
-  grey2       = { "#ADA8E0", 8 },
+  grey1       = { "#B3BCE1", 4 },
+  grey2       = { "#ADA8E0", 15 },
 }
 
 local M = {}
