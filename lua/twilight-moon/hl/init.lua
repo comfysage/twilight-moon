@@ -309,8 +309,8 @@ function M.setup(theme, config)
   -- hl_groups['@include.typescript'] = { theme.syntax.keyword }
 
   hl_groups['markdownH1'] = { theme.purple }
-  hl_groups['markdownH2'] = { theme.orange }
-  hl_groups['markdownH3'] = { theme.green }
+  hl_groups['markdownH2'] = { theme.green }
+  hl_groups['markdownH3'] = { theme.yellow }
   hl_groups['markdownH4'] = { link = "markdownH1" }
   hl_groups['markdownH5'] = { link = "markdownH2" }
   hl_groups['markdownH6'] = { link = "markdownH3" }
