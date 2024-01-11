@@ -315,6 +315,13 @@ function M.setup(theme, config)
   hl_groups['markdownH5'] = { link = "markdownH2" }
   hl_groups['markdownH6'] = { link = "markdownH3" }
 
+  hl_groups['@text.title.1.markdown'] = { link = 'markdownH1' }
+  hl_groups['@text.title.2.markdown'] = { link = 'markdownH2' }
+  hl_groups['@text.title.3.markdown'] = { link = 'markdownH3' }
+  hl_groups['@text.title.4.markdown'] = { link = 'markdownH4' }
+  hl_groups['@text.title.5.markdown'] = { link = 'markdownH5' }
+  hl_groups['@text.title.6.markdown'] = { link = 'markdownH6' }
+
   -- Telescope
   hl_groups['TelescopeMatching']       = { link = "Search" }
   hl_groups['TelescopeSelection']      = { link = "Identifier" }
