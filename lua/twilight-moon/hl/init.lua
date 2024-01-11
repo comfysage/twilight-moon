@@ -105,7 +105,7 @@ function M.setup(theme, config)
     TSConstant           = { link = "Constant" },
     TSConstructor        = { theme.green },
     TSException          = { link = "Exception" },
-    TSField              = { theme.syntax.object },
+    TSField              = { theme.fg2 },
     TSFloat              = { link = "Float" },
     TSFuncBuiltin        = { link = "Constant" },
     TSFuncMacro          = { theme.syntax.macro },
@@ -288,6 +288,8 @@ function M.setup(theme, config)
   -- lsp
   hl_groups['@none'] = { theme.fg }
 
+  hl_groups['@lsp.type.property'] = { link = 'TSField' }
+
   hl_groups['@constructor.lua'] = { theme.syntax.context }
 
   hl_groups['@lsp.type.namespace'] = { link = "TSNamespace" }
@@ -338,7 +340,7 @@ function M.setup(theme, config)
   hl_groups['CmpItemKindMethod']  = { theme.syntax.constant }
   hl_groups['CmpItemKindFunction']  = { theme.syntax.call }
   hl_groups['CmpItemKindConstructor']  = { theme.syntax.type }
-  hl_groups['CmpItemKindField']  = { theme.syntax.object }
+  hl_groups['CmpItemKindField']  = { link = "TSField" }
   hl_groups['CmpItemKindVariable']  = { theme.syntax.object }
   hl_groups['CmpItemKindClass']  = { theme.syntax.type }
   hl_groups['CmpItemKindInterface']  = { theme.syntax.type }
