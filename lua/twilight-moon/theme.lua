@@ -103,7 +103,7 @@ function M.setup(colors, config)
     object = theme.fg1,
     field = theme.hollow1,
     type = theme.yellow,
-    context = theme.blue,
+    context = theme.hollow1,
     constant = theme.purple,
     call = theme.purple,
     string = theme.green,
