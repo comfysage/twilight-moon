@@ -107,7 +107,7 @@ function M.setup(theme, config)
     TSConstant           = { link = "Constant" },
     TSConstructor        = { theme.green },
     TSException          = { link = "Exception" },
-    TSField              = { theme.fg2 },
+    TSField              = { theme.syntax.field },
     TSFloat              = { link = "Float" },
     TSFuncBuiltin        = { link = "Constant" },
     TSFuncMacro          = { theme.syntax.macro },

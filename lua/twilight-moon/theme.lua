@@ -39,6 +39,7 @@
 ---@class twilight.types.Syntax
 ---@field keyword twilight.types.Color
 ---@field object twilight.types.Color
+---@field field twilight.types.Color
 ---@field type twilight.types.Color
 ---@field context twilight.types.Color
 ---@field constant twilight.types.Color
@@ -100,6 +101,7 @@ function M.setup(colors, config)
   theme.syntax = {
     keyword = theme.fg3,
     object = theme.fg1,
+    field = theme.hollow1,
     type = theme.yellow,
     context = theme.blue,
     constant = theme.purple,
