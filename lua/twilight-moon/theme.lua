@@ -105,7 +105,7 @@ function M.setup(colors, config)
     type = theme.yellow,
     context = theme.hollow1,
     constant = theme.purple,
-    call = theme.purple,
+    call = theme.hollow2,
     string = theme.green,
     macro = theme.orange,
     annotation = theme.orange,
