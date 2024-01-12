@@ -24,6 +24,9 @@ _G.twilight_colors = {
   grey0       = { "#CAD0E9", 8 },
   grey1       = { "#B3B5E1", 4 },
   grey2       = { "#ADA8E0", 15 },
+  hollow0     = { "#BDC7B5", 2 },
+  hollow1     = { "#A4A5CC", 15 },
+  hollow2     = { "#A7CCC0", 6 },
 }
 
 local M = {}

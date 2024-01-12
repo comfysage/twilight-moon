@@ -18,6 +18,9 @@
 ---@field fg0 twilight.types.Color
 ---@field fg1 twilight.types.Color
 ---@field fg2 twilight.types.Color
+---@field hollow0 twilight.types.Color
+---@field hollow1 twilight.types.Color
+---@field hollow2 twilight.types.Color
 ---@field red  twilight.types.Color
 ---@field yellow twilight.types.Color
 ---@field orange twilight.types.Color
@@ -77,6 +80,9 @@ function M.setup(colors, config)
   theme.fg1 = colors.grey0
   theme.fg2 = colors.grey1
   theme.fg3 = colors.grey2
+  theme.hollow0 = colors.hollow0
+  theme.hollow1 = colors.hollow1
+  theme.hollow2 = colors.hollow2
 
   local sign_colors = { soft = theme.bg3 }
   theme.sign = sign_colors[config.contrast_dark] or theme.none
