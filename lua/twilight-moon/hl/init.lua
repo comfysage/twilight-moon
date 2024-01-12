@@ -303,6 +303,7 @@ function M.setup(theme, config)
   hl_groups['@string.html'] = { theme.blue }
 
   hl_groups['@lsp.type.macro.rust'] = { theme.syntax.macro }
+  hl_groups['@lsp.type.function'] = { theme.none }
 
   -- fix lsp hover doc
   hl_groups['@none.markdown'] = { theme.none, theme.none }
