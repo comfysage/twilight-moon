@@ -6,7 +6,7 @@
 ---@type twilight.types.Colors
 _G.twilight_colors = {
   bg0_hard    = { "#1B1E2B", 0 },
-  bg0         = { "#292D3E", 0 },
+  bg0         = { "#262A38", 0 },
   bg0_soft    = { "#32374D", 0 },
   bg1         = { "#424760", 8 },
   bg2         = { "#4B506D", 8 },
