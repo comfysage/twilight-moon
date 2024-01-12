@@ -22,7 +22,7 @@ _G.twilight_colors = {
   blue        = { "#97BAC7", 4 },
   purple      = { "#CEA3D6", 5 },
   grey0       = { "#CAD0E9", 8 },
-  grey1       = { "#B3BCE1", 4 },
+  grey1       = { "#B3B5E1", 4 },
   grey2       = { "#ADA8E0", 15 },
 }
 
