@@ -292,7 +292,7 @@ function M.setup(theme, config)
 
   hl_groups['@lsp.type.property'] = { link = 'TSField' }
 
-  hl_groups['@constructor.lua'] = { theme.syntax.context }
+  hl_groups['@constructor.lua'] = { theme.hollow0 }
 
   hl_groups['@lsp.type.namespace'] = { link = "TSNamespace" }
   hl_groups['@lsp.type.keyword.lua'] = { link = "TSKeyword" }
